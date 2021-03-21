@@ -1,0 +1,41 @@
+body{
+    background-color: #E6E6EA;
+}
+
+h1{
+    text-align: center;
+    color : #7EBCB9;
+}
+
+p{
+    text-align: center;
+}
+
+input{
+    display: block;
+}
+
+#map { 
+    height: 550px; 
+    border: 2px solid #7EBCB9;
+}
+
+#centre{
+    text-align: center;
+}
+
+#start{
+    display: block;
+    background-color: #7EBCB9;
+    color: #222327;
+  }
+  
+
+/* mise en forme des popups de la carte Leaflet */
+.leaflet-popup-tip,
+.leaflet-popup-content-wrapper {
+background : #7EBCB9;
+color : #222327;
+width: 0 auto;
+height: auto;
+}
